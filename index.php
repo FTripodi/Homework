@@ -53,6 +53,7 @@ function days_to_weeks($days)
 <hr/>
 
 <h2>Homework-Set3</h2>
+<h4>problem one</h4>
 <?php 
     function multiply($x, $y)
     {
@@ -64,6 +65,24 @@ function days_to_weeks($days)
     <p><?php echo multiply(0,4);?></p>
     <p><?php echo multiply(900,32);?></p>
     <p><?php echo multiply(299999,23);?></p>
+
+<h4>problem two</h4>
+<?php
+    function divide($x, $y)
+    {
+        return $x/$y;
+
+    }
+
+    ?> 
+    
+    <p><?php echo divide(4,2);?></p>
+    <p><?php echo divide(2,4);?></p>
+    <p><?php echo divide(900,32);?></p>
+    <p><?php echo divide(384,0);?></p>
+
+
+
 
 
 

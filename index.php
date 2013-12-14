@@ -58,9 +58,7 @@ function days_to_weeks($days)
     {
         return $x*$y;
     }
-    
-    $x=4;
-    $y=2;?>
+    ?>
 
     <p><?php echo multiply(4,2);?></p>
     <p><?php echo multiply(0,4);?></p>
